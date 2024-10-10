@@ -1,0 +1,106 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #89cff0, #4682b4);
+}
+
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.city-input {
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 8px;
+  padding-left: 10px;
+  background-color: #e0f7fa;
+  color: #37474f;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+ion-card {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #ffffff, #f5f5f5);
+}
+
+ion-button {
+  width: 30%;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0;
+  background-color: #1e90ff;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+ion-button:hover {
+  background-color: #187bcd;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.weather-box {
+  background-color: #d1ecf1;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 45%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #37474f;
+  font-weight: bold;
+}
+
+.weather-box p {
+  margin: 4px 0;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e90ff;
+}
+
+.city-title {
+  color: #000000;
+}
+
+.temperature {
+  color: #16b5ff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: bold;
+  color: #37474f;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
